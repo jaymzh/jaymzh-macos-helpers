@@ -1,9 +1,9 @@
 #!/bin/bash
 
-[ -d dst ] || mkdir dst
+# TODO: replace this with the Makefile once
+#   https://github.com/pqrs-org/KE-complex_modifications-core/pull/2
+# is merged
 
-for file in src/*; do
-    dst=${file//src/dst}
-    dst=${dst//.js/.json}
-    ./core/bin/karabiner_cli --eval-js $file > $dst
-done
+# In meantime
+cd core
+sandbox-exec -f files/generator.sb bash scripts/update-json.sh
