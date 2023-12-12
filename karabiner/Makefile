@@ -1,2 +1,2 @@
 all:
-	make -C core
+	make -C core build_rules
