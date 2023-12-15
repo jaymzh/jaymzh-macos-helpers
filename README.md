@@ -63,5 +63,5 @@ Why doesn't google calendar notify you for your meetings even though that tab ca
 
 * System Preferences
   * Notifications
-    * select `Chrome`
+    * select `Google Chrome` **and** `Google Chrome Helper`
 
