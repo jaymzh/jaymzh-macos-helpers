@@ -294,8 +294,8 @@ function main() {
                             {
                                 "key_code": "power",
                                 "modifiers": [
-                                    "left_control",
-                                    "left_shift"
+                                    "control",
+                                    "shift"
                                 ]
                             }
                         ],
