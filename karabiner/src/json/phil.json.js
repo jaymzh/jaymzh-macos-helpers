@@ -195,68 +195,6 @@ function main() {
                             "pointing_button": "button1"
                         }
                     },
-                    {
-                        "type": "basic",
-                        "from": {
-                            "key_code": "2",
-                            "modifiers": {
-                                "mandatory": ["command"]
-                            }
-                        },
-                        "to": [
-                            {
-                                "key_code": "2",
-                                "modifiers": ["command"]
-                            },
-                            {
-                                "key_code": "4",
-                                "modifiers": ["command"]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "description": "Handle virtual desktops across screens",
-                "manipulators": [
-                    {
-                        "type": "basic",
-                        "from": {
-                            "key_code": "1",
-                            "modifiers": {
-                                "mandatory": ["command"]
-                            }
-                        },
-                        "to": [
-                            {
-                                "key_code": "1",
-                                "modifiers": ["command"]
-                            },
-                            {
-                                "key_code": "3",
-                                "modifiers": ["command"]
-                            }
-                        ]
-                    },
-                    {
-                        "type": "basic",
-                        "from": {
-                            "key_code": "2",
-                            "modifiers": {
-                                "mandatory": ["command"]
-                            }
-                        },
-                        "to": [
-                            {
-                                "key_code": "2",
-                                "modifiers": ["command"]
-                            },
-                            {
-                                "key_code": "4",
-                                "modifiers": ["command"]
-                            }
-                        ]
-                    }
                 ]
             },
             {
