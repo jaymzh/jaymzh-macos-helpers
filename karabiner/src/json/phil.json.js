@@ -269,6 +269,59 @@ function main() {
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "type": "basic",
+                        "from": {
+                            "key_code": "delete_or_backspace",
+                            "modifiers": {
+                                "mandatory": [
+                                    "control",
+                                    "command"
+                                ]
+                            }
+                        },
+                        "to": [
+                            {
+                                "key_code": "power",
+                                "modifiers": [
+                                    "control",
+                                    "shift"
+                                ]
+                            }
+                        ],
+                        "conditions": [
+                            {
+                                "type": "frontmost_application_unless",
+                                "bundle_identifiers": [
+                                    "^com\\.microsoft\\.rdc$",
+                                    "^com\\.microsoft\\.rdc\\.",
+                                    "^net\\.sf\\.cord$",
+                                    "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                    "^com\\.itap-mobile\\.qmote$",
+                                    "^com\\.nulana\\.remotixmac$",
+                                    "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                    "^com\\.p5sys\\.jump\\.mac\\.viewer\\.",
+                                    "^com\\.teamviewer\\.TeamViewer$",
+                                    "^com\\.vmware\\.horizon$",
+                                    "^com\\.2X\\.Client\\.Mac$",
+                                    "^com\\.OpenText\\.Exceed-TurboX-Client$",
+                                    "^com\\.realvnc\\.vncviewer$",
+                                    "^com\\.citrix\\.receiver\\.icaviewer",
+                                    "^com\\.vmware\\.fusion$",
+                                    "^com\\.vmware\\.horizon$",
+                                    "^com\\.vmware\\.view$",
+                                    "^com\\.parallels\\.desktop$",
+                                    "^com\\.parallels\\.vm$",
+                                    "^com\\.parallels\\.desktop\\.console$",
+                                    "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                    "^com\\.citrix\\.XenAppViewer$",
+                                    "^com\\.vmware\\.proxyApp\\.",
+                                    "^com\\.parallels\\.winapp\\.",
+                                    "^com\\.utmapp\\.UTM$"
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
