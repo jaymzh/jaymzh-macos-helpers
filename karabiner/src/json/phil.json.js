@@ -120,7 +120,8 @@ function main() {
                             {
                                 "type": "frontmost_application_if",
                                 "bundle_identifiers": [
-                                    "com.apple.Terminal"
+                                    "com.apple.Terminal",
+                                    "com.googlecode.iterm2"
                                 ]
                             }
                         ]
@@ -149,7 +150,8 @@ function main() {
                             {
                                 "type": "frontmost_application_if",
                                 "bundle_identifiers": [
-                                    "com.apple.Terminal"
+                                    "com.apple.Terminal",
+                                    "com.googlecode.iterm2"
                                 ]
                             }
                         ]
@@ -173,7 +175,8 @@ function main() {
                             {
                                 "type": "frontmost_application_if",
                                 "bundle_identifiers": [
-                                    "com.apple.Terminal"
+                                    "com.apple.Terminal",
+                                    "com.googlecode.iterm2"
                                 ]
                             }
                         ]
@@ -209,7 +212,7 @@ function main() {
                             }
                         },
                         "to": {
-                            "shell_command": "open -a Terminal ~"
+                            "shell_command": "/usr/local/bin/launch_iterm"
                         }
                     }
                 ]
