@@ -13,7 +13,7 @@ function main() {
                         },
                         "to": {
                             "key_code": "up_arrow",
-                            "modifiers": ["left_command"]
+                            "modifiers": ["command"]
                         },
                         "conditions": [
                             {
@@ -39,7 +39,7 @@ function main() {
                         },
                         "to": {
                             "key_code": "return_or_enter",
-                            "modifiers": ["left_command"]
+                            "modifiers": ["command"]
                         },
                         "conditions": [
                             {
@@ -144,7 +144,7 @@ function main() {
                         },
                         "to": {
                             "key_code": "c",
-                            "modifiers": ["left_command"]
+                            "modifiers": ["command"]
                         },
                         "conditions": [
                             {
@@ -169,7 +169,7 @@ function main() {
                         },
                         "to": {
                             "key_code": "v",
-                            "modifiers": ["left_command"]
+                            "modifiers": ["command"]
                         },
                         "conditions": [
                             {
