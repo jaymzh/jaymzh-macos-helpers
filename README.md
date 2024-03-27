@@ -28,6 +28,16 @@ Obviously, when you connect or disconnect from monitors, windows will move aroun
 
 The best solution I've found to this is [Moom](https://manytricks.com/moom/). Moom allows you to save window layouts and easily return to them which can making life much easier. You can trigger "arranging" via keyboard shortcut, do it from the toolbar, or trigger on certain other events. It currently can't seem to move Slack though, I have a bug open on it. Moom is $10, but it's well worth it.
 
+### Vertical and Horizontal Maximization
+
+One thing that was unsolved for me for a long-time, actually is solvable with a somewhat hidden feature in Moom.
+
+If you make a "Resize" action in Moom, and click the *middle* dot, you can set one dimention as "=" and another dimention as "100%" giving you either vertical or horizontal mximization of a window.
+
+You can then make a "revert to original dimentions" action.
+
+You can see examples of this in `Moom > Moom Help > Custom Controls > 6) Resize > Special Modes`.
+
 ## Focus Follows Mouse
 
 The UNIX/X11 standard is that focus follows the mouse pointer, not the click. OS X does not support this natively, but you can get it.
@@ -48,15 +58,6 @@ echo 'delay=0' >> ~/.config/AutoRaise/config
 brew services restart autoraise
 ```
 
-## Unsolved problems
-
-* highlight-to-copy/middle-click-to-paste - this works in Terminal only
-* maximize-window vertically-only
-* maximize-window horizontally-only
-* send-window-to-back
-* send-window-to-another-desktop
-* alt-click to drag windows
-
 ## Notifications
 
 Why doesn't google calendar notify you for your meetings even though that tab can notify? Because you have to go tell MacOS that Chrome can notify.
@@ -65,3 +66,9 @@ Why doesn't google calendar notify you for your meetings even though that tab ca
   * Notifications
     * select `Google Chrome` **and** `Google Chrome Helper`
 
+## Unsolved problems
+
+* highlight-to-copy/middle-click-to-paste - this works in Terminal only
+* send-window-to-back
+* send-window-to-another-desktop
+* alt-click to drag windows
